@@ -1,0 +1,17 @@
+.nr-rating-box {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  z-index: 9999;
+  display: flex;
+  gap: 6px;
+  background: rgba(0,0,0,0.7);
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.nr-badge {
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 4px;
+}
